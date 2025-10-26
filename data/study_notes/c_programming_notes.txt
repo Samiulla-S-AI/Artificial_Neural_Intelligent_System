@@ -1,0 +1,58 @@
+
+[2025-03-03 08:35:41]
+Q: types of error
+A: Okay, here's a concise overview of error types in C programming:
+
+**In C, errors generally fall into these categories:**
+
+*   **Syntax Errors:**
+    *   **What:** Violations of C's grammar rules. The compiler detects these during compilation.
+    *   **Example:** Missing semicolon (`;`), incorrect use of keywords (e.g., `whille` instead of `while`).
+    *   **Key Point:** Prevent compilation, so no executable is created.
+
+*   **Semantic Errors (Logical Errors):**
+    *   **What:** Code compiles without errors, but doesn't produce the intended result due to incorrect logic.
+    *   **Example:** Using `=` instead of `==` in a conditional statement, incorrect loop conditions, or incorrect order of operations.
+    *   **Key Point:** Difficult to detect; require careful debugging and testing.
+
+*   **Runtime Errors:**
+    *   **What:** Errors that occur while the program is running.
+    *   **Example:** Division by zero, accessing memory out of bounds (segmentation fault), stack overflow, or trying to open a file that doesn't exist.
+    *   **Key Point:** Often lead to program crashes or unpredictable behavior.
+
+*   **Linker Errors:**
+    *   **What:** Errors that occur during the linking phase, when the compiler tries to combine different object files and libraries.
+    *   **Example:** Undefined function or variable (the function or variable is used but not defined), multiple definitions of the same function or variable.
+    *   **Key Point:** Usually due to missing libraries or incorrect function/variable names.
+
+**Example demonstrating several types:**
+
+```c
+#include <stdio.h>
+
+int main() {
+  int x = 10;
+  int y = 0;
+
+  // Syntax Error: Missing semicolon
+  printf("Value of x: %d\n" x)
+
+  if (x = 5) { // Semantic Error: Assignment instead of comparison
+     printf("x is 5\n");
+  }
+
+  int result = x / y; // Potential Runtime Error: Division by zero
+
+  printf("Result: %d\n", result);
+
+  return 0;
+}
+```
+
+**Important Notes:**
+
+*   The type of error dictates how you find and fix it. Syntax errors are caught by the compiler.  Semantic errors need debugging. Runtime errors are often found with careful testing and using debugging tools.
+*   Good coding practices (e.g., commenting, using descriptive variable names) can help prevent semantic errors.
+
+
+--------------------------------------------------

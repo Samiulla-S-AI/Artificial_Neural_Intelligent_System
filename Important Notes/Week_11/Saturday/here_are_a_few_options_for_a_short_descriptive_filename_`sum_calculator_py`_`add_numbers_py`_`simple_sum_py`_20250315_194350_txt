@@ -1,0 +1,21 @@
+Date: 2025-03-15 19:43:50
+--------------------------------------------------
+
+# Program to calculate the sum of two numbers
+
+
+ def sum_two_numbers(num1, num2):
+  # Calculate the sum
+  sum_result = num1 + num2
+  return sum_result
+
+
+ if __name__ == "__main__":
+  # Get input from the user
+  try:
+  num1 = float(input("Enter the first number: "))
+  num2 = float(input("Enter the second number: "))
+
+
+  # Calculate the sum
+  sum_of_numbers = sum_two_numbers(num1, num2)

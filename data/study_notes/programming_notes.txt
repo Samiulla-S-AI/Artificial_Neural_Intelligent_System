@@ -1,0 +1,16 @@
+
+[2025-03-15 15:02:38]
+Q: errors types
+A: Okay, here's a quick rundown of common error types in programming:
+
+*   **Syntax Errors:** Grammatical mistakes in the code (e.g., missing semicolon, incorrect keyword). The compiler/interpreter usually catches these. *Example:* `print "Hello"` (missing parentheses in Python 3).
+
+*   **Runtime Errors:** Errors that occur while the program is running (e.g., division by zero, accessing an invalid memory location). *Example:* `x = 10 / 0`.
+
+*   **Logic Errors:** The program runs without crashing, but it doesn't produce the intended result due to flaws in the algorithm. *Example:* Using `+` instead of `*` in a calculation.
+
+*   **Type Errors:** Occurs when an operation is performed on an incorrect data type. *Example:* Trying to add a number to a string without converting it first.
+
+Key takeaway: Syntax errors are caught early, runtime errors crash the program, and logic errors are the hardest to find.
+
+--------------------------------------------------

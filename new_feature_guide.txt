@@ -1,0 +1,4 @@
+give the seperate study mode when i say switch study mode it should be switch to that mode till i say stop study mode and I want to implement the feature specialy for this mode 
+when someone want to know anout the concept in this mode you should provide most of the relevant websites for refernce and automatically open its youtube video and Google search and resoruces specially for that and you should communicate with that person by
+storing their conversation in study_converstion.db and it should reset when i say reset the conversation  and the reason for i told you to store the conversation in the db because you should communicate with them freely and fluently what hey want and there automatically notes generating feature for current study and that should make user to understand the concept in just of 10 minutes
+use this genai.configure(api_key="AIzaSyAqlSk_zL7ID0a_tiBP_E6sIurmXB43F4k") short out this

@@ -1,0 +1,5 @@
+Date: 2025-02-24 14:49:54
+--------------------------------------------------
+
+The Operating System (OS) is the backbone of a computer, acting as an intermediary between the user and the hardware. It enables users to interact with the computer
+ and manage resources efficiently without needing to write individual programs for each function or task."

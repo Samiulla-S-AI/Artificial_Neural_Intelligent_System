@@ -1,0 +1,15 @@
+
+[2025-03-31 11:03:04]
+Q: hi
+A: Hi! Quantum computing leverages quantum mechanics to solve complex problems beyond classical computers.
+
+**Key Points:**
+
+*   **Qubits:** Instead of bits (0 or 1), quantum computers use qubits, which can be 0, 1, or both simultaneously (superposition).
+*   **Superposition:** Allows quantum computers to explore many possibilities concurrently.
+*   **Entanglement:** Correlates qubits, enabling complex computations.
+*   **Applications:** Cryptography, drug discovery, materials science, optimization.
+
+**Example:** Factoring large numbers (important for cryptography) is much faster on a quantum computer using Shor's algorithm.
+
+--------------------------------------------------

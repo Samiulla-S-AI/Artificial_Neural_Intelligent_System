@@ -1,0 +1,12 @@
+Date: 2025-02-15 07:30:22
+--------------------------------------------------
+
+[07:29:18] You: save the highlights
+[07:29:21] A.N.I.S: To save the highlights:
+- Select the text you want to highlight and click the "Highlight" button.
+- A color palette will appear, and you can choose a color for your highlight.
+- Click the "Save" button to save your highlight.
+[07:29:40] You: save the highlighted text
+[07:29:42] A.N.I.S: To save the highlighted text:
+- Select the highlighted text and click the "Save" button.
+- The highlighted text will be saved to your device.

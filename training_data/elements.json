@@ -1,0 +1,18 @@
+{
+  "very nice": [
+    {
+      "x": 1752,
+      "y": 17,
+      "timestamp": 1744448593,
+      "screenshot_path": "training_data/very_nice_1744448593.png"
+    }
+  ],
+  "minimise": [
+    {
+      "x": 1752,
+      "y": 17,
+      "timestamp": 1744448603,
+      "screenshot_path": "training_data/minimise_1744448603.png"
+    }
+  ]
+}

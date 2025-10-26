@@ -1,0 +1,13 @@
+Date: 2025-02-26 17:43:10
+--------------------------------------------------
+
+I've completely simplified the filename generation process to make it more reliable. Here's what changed:
+Removed AI dependency:
+No more Gemini API calls
+Uses a simple, reliable method to generate filenames
+Simplified filename generation:
+Takes first 3 meaningful words from the content
+Removes invalid characters
+Adds timestamp for uniqueness
+Maximum filename length of 50 characters (plus timestamp)
+Improved save location:
