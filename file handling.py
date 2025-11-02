@@ -106,7 +106,7 @@ def setup_logging():
         return False
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key="Your_OpenRouter_API_Key"
 )
 def create_required_directories():
     try:
@@ -364,7 +364,7 @@ class VoiceAssistant:
         self.study_mode = False
         self.current_topic = None
         self.study_progress = {}
-        self.api_key = "AIzaSyAqlSk_zL7ID0a_tiBP_E6sIurmXB43F4k"
+        self.api_key = "Your_Gemini_API_Key"
         self.quiz_window = None
         self.quiz_questions = []
         self.quiz_answers = []
@@ -465,7 +465,7 @@ class VoiceAssistant:
         self.root.protocol("WM_DELETE_WINDOW", self.exit_assistant)
         try:
             import google.generativeai as genai
-            genai.configure(api_key="AIzaSyAqlSk_zL7ID0a_tiBP_E6sIurmXB43F4k")
+            genai.configure(api_key="Your_Gemini_API_Key")
             self.gemini_model = genai.GenerativeModel('gemini-2.0-flash')
             self.chat = self.gemini_model.start_chat(history=[])
         except Exception as e:
@@ -4768,4 +4768,5 @@ def format_time(seconds):
     """Convert seconds to formatted time string"""
     minutes, seconds = divmod(seconds, 60)
     hours, minutes = divmod(minutes, 60)
+
     return f"{int(hours):02d}:{int(minutes):02d}"
