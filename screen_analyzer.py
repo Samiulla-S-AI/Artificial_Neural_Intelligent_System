@@ -24,13 +24,13 @@ except ImportError:
     print("Warning: pygetwindow not installed. App context detection will be limited.")
     gw = None
 DATABASE_FILE = "conversation_log.db"
-HARDCODED_API_KEY = "AIzaSyBBalgg7yFEO90hxDhQd1El30HTuMMzg"
+HARDCODED_API_KEY = "Your_API_Key"
 LISTENING_KEYWORD = "anish"
 tts_engine = pyttsx3.init()
 request_queue = queue.Queue()
 def configure_genai():
     """Configures the Gemini client using a hardcoded API key."""
-    api_key = "AIzaSyBBalgg7yFEO90hxDhQd1El30HTL3Mzg"
+    api_key = "Your actual Google API Key"
     if not api_key or api_key == "YOUR_ACTUAL_GOOGLE_API_KEY":
         print("ERROR: Google API Key is not set in the script.")
         print("Please replace 'YOUR_ACTUAL_GOOGLE_API_KEY' in the script with your actual key.")
